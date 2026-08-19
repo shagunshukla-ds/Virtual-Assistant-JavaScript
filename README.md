@@ -1,23 +1,22 @@
-# EVA — Virtual Assistant 🎙️
+**EVA — Virtual Assistant**
 
-A browser-based virtual assistant built with **HTML, CSS, and vanilla JavaScript**. It supports both voice and text commands, and integrates with free public APIs for real-time information.
+A browser-based virtual assistant built with HTML, CSS, and vanilla JavaScript. It supports both voice and text commands, and integrates with free public APIs for real-time information.
 
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
-## ✨ Features
+**Features**
 
-- 🎤 **Voice input** — via the browser's Web Speech API (`SpeechRecognition`)
-- 🔊 **Voice output** — via `SpeechSynthesis` (text-to-speech)
-- ⏰ Tell the current time and date
-- 🌦️ **Live weather** for any city (Open-Meteo API — no key required)
-- 📚 **Wikipedia summaries** for any topic
-- 😂 Random jokes (JokeAPI)
-- 🧮 Basic calculator ("calculate 12 * 4 + 1")
-- 🔍 Web search shortcut ("search cute cats")
-- 📺 Quick launch for YouTube
+-  Voice input — via the browser's Web Speech API (`SpeechRecognition`)
+-  Voice output — via `SpeechSynthesis` (text-to-speech)
+-  Live weather for any city (Open-Meteo API — no key required)
+-  Wikipedia summaries for any topic
+-  Random jokes (JokeAPI)
+-  Basic calculator ("calculate 12 * 4 + 1")
+-  Web search shortcut ("search cute cats")
+-  Quick launch for YouTube
 
-## 🗂️ Project Structure
+**Project Structure**
 
 ```
 virtual-assistant/
@@ -28,7 +27,7 @@ virtual-assistant/
 └── LICENSE            # MIT license
 ```
 
-## 🚀 Getting Started
+**Getting Started**
 
 1. Clone the repository:
    ```bash
@@ -41,9 +40,9 @@ virtual-assistant/
    ```
 3. Click the 🎤 button and grant microphone permission, or just type a command in the input box.
 
-> **Note:** Voice recognition (`SpeechRecognition`) currently works best in Chrome and Edge. Text input works in every modern browser.
+> Note: Voice recognition (`SpeechRecognition`) currently works best in Chrome and Edge. Text input works in every modern browser.
 
-## 🗣️ Example Commands
+**Example Commands**
 
 | Say / Type                     | Response                              |
 |---------------------------------|----------------------------------------|
@@ -54,24 +53,16 @@ virtual-assistant/
 | "Calculate 25 * 4"              | Evaluates the expression               |
 | "Search best laptops 2026"      | Opens a Google search in a new tab     |
 
-## 🔌 APIs Used
+**APIs Used**
 
 - [Open-Meteo](https://open-meteo.com/) — Geocoding + weather forecast (no API key)
 - [Wikipedia REST API](https://www.mediawiki.org/wiki/API:REST_API) — Article summaries
 - [JokeAPI](https://sv443.net/jokeapi/v2/) — Random jokes
 - Web Speech API (built into the browser) — Speech-to-text and text-to-speech
 
-## 🛠️ Built With
+**Built With**
 
 - HTML5
 - CSS3
 - Vanilla JavaScript (ES6+)
 - Web Speech API
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-## 🙌 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
