@@ -53,13 +53,6 @@ virtual-assistant/
 | "Calculate 25 * 4"              | Evaluates the expression               |
 | "Search best laptops 2026"      | Opens a Google search in a new tab     |
 
-**APIs Used**
-
-- [Open-Meteo](https://open-meteo.com/) — Geocoding + weather forecast (no API key)
-- [Wikipedia REST API](https://www.mediawiki.org/wiki/API:REST_API) — Article summaries
-- [JokeAPI](https://sv443.net/jokeapi/v2/) — Random jokes
-- Web Speech API (built into the browser) — Speech-to-text and text-to-speech
-
 **Built With**
 
 - HTML5
