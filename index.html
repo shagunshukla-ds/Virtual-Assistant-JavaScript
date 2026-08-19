@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EVA — Virtual Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <span class="dot" id="statusDot"></span>
+        <h1>EVA</h1>
+        <span class="sub">Your Virtual Assistant</span>
+      </div>
+    </header>
+
+    <main class="chat-window" id="chatWindow">
+      <div class="message assistant">
+        <p>Hi, I'm EVA 👋 Click the mic or type a command below. Try "what's the time", "weather in London", "tell me a joke", or "wikipedia AI".</p>
+      </div>
+    </main>
+
+    <form class="input-bar" id="inputForm">
+      <button type="button" id="micBtn" class="icon-btn" title="Speak">🎤</button>
+      <input type="text" id="textInput" placeholder="Type a command or question..." autocomplete="off" />
+      <button type="submit" class="icon-btn send" title="Send">➤</button>
+    </form>
+
+    <footer class="footer">
+      <small>Built with HTML, CSS &amp; JavaScript · Web Speech API · Open-Meteo · Wikipedia · JokeAPI</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
